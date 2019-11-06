@@ -43,5 +43,46 @@ namespace AppFunciones
             return (a + b);
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num1 = Int32.Parse(this.txtNum1.Text.ToString());
+            int num2 = Int32.Parse(this.txtnum2.Text.ToString());
+            int resta = fnresta(num1, num2);
+
+            //asigno  el resultado al cuadro de texto
+            this.txtresultado.Text = resta.ToString();
+        }
+        int fnresta(int a, int b)
+        {
+            return (a - b);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int num1 = Int32.Parse(this.txtNum1.Text.ToString());
+            int num2 = Int32.Parse(this.txtnum2.Text.ToString());
+            int multiplicacion = fnmultiplicacion(num1, num2);
+
+            //asigno  el resultado al cuadro de texto
+            this.txtresultado.Text = multiplicacion.ToString();
+        }
+        int fnmultiplicacion(int a, int b)
+        {
+            return (a * b);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int num1 = Int32.Parse(this.txtNum1.Text.ToString());
+            int num2 = Int32.Parse(this.txtnum2.Text.ToString());
+            int division = fnmultiplicacion(num1, num2);
+
+            //asigno  el resultado al cuadro de texto
+            this.txtresultado.Text = division.ToString();
+        }
+        int fndivision(int a, int b)
+        {
+            return (a / b);
+        }
     }
 }

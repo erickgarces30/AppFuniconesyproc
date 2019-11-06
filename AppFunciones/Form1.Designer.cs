@@ -91,7 +91,7 @@
             // 
             // sumar
             // 
-            this.sumar.Location = new System.Drawing.Point(340, 33);
+            this.sumar.Location = new System.Drawing.Point(330, 33);
             this.sumar.Name = "sumar";
             this.sumar.Size = new System.Drawing.Size(84, 20);
             this.sumar.TabIndex = 6;
@@ -101,7 +101,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(342, 143);
+            this.button2.Location = new System.Drawing.Point(330, 143);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 22);
             this.button2.TabIndex = 7;
@@ -111,30 +111,33 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(340, 59);
+            this.button1.Location = new System.Drawing.Point(330, 59);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 22);
             this.button1.TabIndex = 8;
             this.button1.Text = "RESTA";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(340, 87);
+            this.button3.Location = new System.Drawing.Point(330, 87);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(84, 20);
             this.button3.TabIndex = 9;
-            this.button3.Text = "mULTIPL";
+            this.button3.Text = "MULTIPLICA";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(342, 113);
+            this.button4.Location = new System.Drawing.Point(330, 113);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(84, 20);
             this.button4.TabIndex = 10;
-            this.button4.Text = "SUMAR";
+            this.button4.Text = "DIVIDIR";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
