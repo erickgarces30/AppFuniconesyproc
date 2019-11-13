@@ -16,7 +16,7 @@ namespace AppFunciones
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AppEjerciciosTodos());
+            Application.Run(new FactorialNumero());
         }
     }
 }

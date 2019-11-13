@@ -58,6 +58,12 @@
     <Compile Include="Conversorgrados.Designer.cs">
       <DependentUpon>Conversorgrados.cs</DependentUpon>
     </Compile>
+    <Compile Include="FactorialNumero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FactorialNumero.Designer.cs">
+      <DependentUpon>FactorialNumero.cs</DependentUpon>
+    </Compile>
     <Compile Include="frminicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Conversorgrados.resx">
       <DependentUpon>Conversorgrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FactorialNumero.resx">
+      <DependentUpon>FactorialNumero.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frminicio.resx">
       <DependentUpon>frminicio.cs</DependentUpon>
