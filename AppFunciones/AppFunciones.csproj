@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppEjerciciosTodos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppEjerciciosTodos.Designer.cs">
+      <DependentUpon>AppEjerciciosTodos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Conversorgrados.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AppEjerciciosTodos.resx">
+      <DependentUpon>AppEjerciciosTodos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Conversorgrados.resx">
       <DependentUpon>Conversorgrados.cs</DependentUpon>
     </EmbeddedResource>
